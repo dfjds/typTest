@@ -13,4 +13,4 @@ def test_typing_speed(typed, time):
     chars = len(typed)
     wpm = (chars / 5) / (time / 60)
 
-    print(f"Your typing speed is {wpm:.2f} WPM.")
+    return f"Your typing speed is {wpm:.2f} WPM."
